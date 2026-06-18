@@ -15,6 +15,6 @@ pipeline{
 		}
 	post{
 		success{ echo 'Build and deployment successfull'}
-		failure{ echo 'Build failed"}
+		failure{ echo 'Build failed'}
 		}
 		}
