@@ -14,7 +14,7 @@ pipeline{
 		steps{ sh 'gradle run'}}
 		}
 	post{
-		success{ echo 'Build and deployment successfull"}
+		success{ echo 'Build and deployment successfull'}
 		failure{ echo 'Build failed"}
 		}
 		}
